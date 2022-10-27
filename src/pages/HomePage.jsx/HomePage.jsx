@@ -114,7 +114,7 @@ const HomePage = () => {
       <Header></Header>
       <FilterContainer>
         <h1>Milhões de filmes, séries e pessoas para descobrir. Explore já</h1>
-        <p>FILTER BY:</p>
+        <p>FILTRE POR:</p>
         <CategoriesContainer>
           {categories.length > 0 ? (
             categories.map((category) => {
